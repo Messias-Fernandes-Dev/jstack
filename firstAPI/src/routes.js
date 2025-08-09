@@ -8,9 +8,9 @@ module.exports = [
     handler: UserController.listUsers,
   },
     {
-    endpois: '/produtos',
+    endpois: '/users/:id',
     method: 'GET',
-    handler: UserController.listUsers,
+    handler: UserController.getUserById,
   },
 ]
 
